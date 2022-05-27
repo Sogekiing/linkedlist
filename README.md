@@ -1,1 +1,1 @@
-Project whose main goal is using Linked list in PHP
+Project whose main goal is to use Linked list in PHP
