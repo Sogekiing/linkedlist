@@ -1,0 +1,21 @@
+{
+  "name": "sogekiing/linkedlist",
+  "description": "Linked list in PHP :)",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Sogekiing",
+      "email": "jaixxbr14@gmail.com"
+    }
+  ],
+  "require": {
+
+  },
+  "autoload": {
+    "psr-4": {
+      "Jair\\": "src/"
+    }
+  },
+  "version": "1.0.0"
+}
