@@ -1,6 +1,7 @@
 <?php
 
 namespace Jair;
+require "vendor/autoload.php";
 
 class Node
 {
