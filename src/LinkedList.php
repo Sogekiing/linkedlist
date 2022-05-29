@@ -1,8 +1,6 @@
 <?php
 
 namespace Jair;
-require "vendor/autoload.php";
-use Jair\Node;
 
 class LinkedList
 {
@@ -122,6 +120,18 @@ class LinkedList
         }
 
         throw new \ValueError("$elem is not in list");
+    }
+
+    public function __toString(): string
+    {
+        $pointer = $this->head;
+        $listString = "";
+        while ($pointer) {
+            $listString = $listString . "$pointer->data ";
+            $pointer = $pointer->next;
+        }
+
+        return $listString;
     }
 
 }
